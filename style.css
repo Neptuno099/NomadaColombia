@@ -3,7 +3,7 @@
 }
 
 .section-padding{
-    padding: 70px 0;
+    padding: 25px 0;
 }
 
 .navbar-nav a{
@@ -46,6 +46,31 @@
     left: 0;
     background-color: rgba(0, 0, 0, 0.342);
     z-index: 1;
+}
+
+.about img{
+    width: 100%;
+}
+
+.about h2, .services h2, .porfolio h2, .team h2, .contact h2{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.about p, .services p, .porfolio-texto, .team p, .contact p{
+    width: auto;
+    height: auto;
+    font-size: 18px;
+    line-height: 1.9;
+}
+
+.List li{
+    list-style: none;
+}
+
+.List a{
+    text-decoration-line: none;
+    color: white;
 }
 
 
